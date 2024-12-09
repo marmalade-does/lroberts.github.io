@@ -13,8 +13,8 @@ People sometimes ask me about the software/tools/tricks/stuff that I use. The id
 
 ## Editor + Terminal
 
-- [Visual Studio Code](https://code.visualstudio.com/) is my current editor. 
-- The [Vivaldi](https://vivaldi.com) is my main browser. It's quite big/heavy, but it has so many features ... :confounded face:
+- The [Vivaldi](https://vivaldi.com) is my main browser. It's quite big/heavy, but it has so many features ... 😖
+- [Visual Studio Code](https://code.visualstudio.com/) is my current editor. However I use VIM on my Ubuntu virtual machine. (Need to change this ...)
 - [Windows](https://www.microsoft.com/es-es/windows?r=1) is my OS, but I have a virtual machine running [Ubuntu](https://ubuntu.com) to do fun tech things.
 
 ## Desktop Apps
