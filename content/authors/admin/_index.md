@@ -55,3 +55,5 @@ website: ""
 I’m doing a degree in genetics and another in informatics. I’m particularly interested in exploring the intersection of data science and molecular biology. I’m fascinated by innovative approaches to solving complex biological problems, especially the application of machine learning.
 
 Outside of my academic studies, I’m a strong believer in life-long learning. Recently, I’ve been diving into subjects like normative ethics, epistemics, AI, and global health. I’m also the founder and president of Altruisme Efectiu UAB
+
+All anonymous feedback is greatly appreciated [here](https://www.admonymous.co/lroberts). 
