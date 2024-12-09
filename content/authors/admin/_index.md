@@ -11,7 +11,7 @@ last_name: Robertson
 
 # Status emoji
 status: learning
-  icon: 📚
+  - icon: 📚
 
 # Is this the primary user of the site?
 superuser: true
@@ -33,10 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:lukas.robertson200403@gmail.com'
     label: Prefered E-mail
-#  - icon: brands/x
-#    url: https://twitter.com/GetResearchDev
-#  - icon: brands/instagram
-#    url: https://www.instagram.com/
   - icon: brands/linkedin
     url: www.linkedin.com/in/lukas-paul-robertson
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
