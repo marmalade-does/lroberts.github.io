@@ -2,4 +2,6 @@
 title: Writing
 ---
 
-You can subscribe to my RSS feed [here](./post/index.xml).
+This is currently empty. You can subscribe to my (future) RSS feed [here](./post/index.xml).
+
+(this is inside the "blog" folder)

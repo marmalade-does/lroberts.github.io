@@ -6,8 +6,7 @@ reading_time: false
 ---
 
 ### Who am I?
-My Name is Lukas. [Here](uploads/face_profile.jpg) is a photo of me.
-. I've decided to format this page as a collection of lists so you can quickly get an idea of who I am without needing to read through lengthy paragraphs.
+My Name is Lukas. [Here](uploads/face_profile.jpg) is a photo of me. I've decided to format this page as a collection of lists so you can quickly get an idea of who I am without needing to read through lengthy paragraphs.
 
 If you're viewing my website as part of an application process (internship, job application, grant, etc.), the information below may not be very relevant. I recommend checking out my CV instead: [here](uploads/resume.pdf).
 
@@ -27,7 +26,7 @@ These are things that I havn't learn't yet (because either not taught in school 
 * The semi-conductor industry.
 
 ## How I try live my days
-People often say "how you live your day is how you live your life". Here are ideas I try to incorporate into how I act.
+People often say "how you live your day is how you live your life". Here are the ideas I try to incorporate into how I act.
 * Deliberatness
 * [Effective Altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism)
 * Hard work
