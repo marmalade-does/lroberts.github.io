@@ -10,8 +10,8 @@ first_name: Lukas
 last_name: Robertson
 
 # Status emoji
-status: learning
-  - icon: 📚
+status:
+  icon: 📚
 
 # Is this the primary user of the site?
 superuser: true
