@@ -2,6 +2,7 @@
 #   The weight parameter defines the order that the links will appear in.
 # Stupid comment to be able to commit
 # another silly change to update things
+# last silly update to ge tthe workflow to work 
 main:
   - name: Home
     url: /
