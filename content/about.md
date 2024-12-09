@@ -6,9 +6,17 @@ reading_time: false
 ---
 
 ### Who am I?
-My Name is Lukas. [Here](/uploads/face_profile.jpg) is a photo of me. I've decided to format this page as a collection of lists so you can quickly get an idea of who I am without needing to read through lengthy paragraphs.
+My Name is Lukas. [Here](/static/uploads/face_profile.jpg) is a photo of me. I've decided to format this page as a collection of lists so you can quickly get an idea of who I am without needing to read through lengthy paragraphs.
 
-If you're viewing this website as part of an application process (internship, job application, grant, etc.), the information below may not be very relevant. I recommend checking out my CV instead: [here](/uploads/resume.pdf).
+Currently I'm doing a few things:
+* I organise [Altruisme Efectiu UAB](https://sites.google.com/view/altruisme-efectiu-uab/home) 
+* I (part-time) organise [AI Safety Barcelona](https://www.aisafetybcn.org)
+* Doing research to build a [Screwworm free future](https://screwworm.org) 🪰
+* (Slowly) trying to write a paper about population genetics with [Prof. Antonio Barbadilla](https://ibb.uab.cat/wp-content/themes/viral/modules/ibb_membres/view_membre.php?CodiMembre=224)
+* In a personal capacity I'm writing about normative and meta-ethics. 
+* \+ uni degrees 😛
+
+If you're viewing this website as part of an application process (internship, job application, grant, etc.), the information below may not be very relevant. I recommend checking out my CV instead: [here](/static/uploads/resume.pdf).
 
 ### Hobbies
 * Reading ([here]() is a list of the things I'm reading)
@@ -33,3 +41,5 @@ People often say "how you live your day is how you live your life". Here are the
 * Mindfulness
 * [Jian Ai](https://www.britannica.com/topic/jianai) (兼爱) / impartiality
     * I understand that the two are similair (might be wrong though)
+
+All anonymous feedback is greatly appreciated [here](https://www.admonymous.co/lroberts). 
