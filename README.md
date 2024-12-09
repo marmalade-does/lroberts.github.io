@@ -1,3 +1,6 @@
+## I used Hugo Blocks to make my website 
+### Here is their README.md file to learn about it/support them
+
 # [Creator's Blog: Hugo Theme](https://github.com/HugoBlox/theme-blog)
 
 [![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
