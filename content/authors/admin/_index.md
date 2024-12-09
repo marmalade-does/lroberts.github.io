@@ -60,6 +60,6 @@ I’m doing a degree in genetics and another in informatics. I’m particularly 
 
 Outside of my academic studies, I’m a strong believer in life-long learning. Recently, I’ve been diving into subjects like normative ethics, epistemics, AI, and global health. I’m also the founder and president of [Altruisme Efectiu UAB](https://sites.google.com/view/altruisme-efectiu-uab/home)
 
-[Here](/uploads/face_profile.jpg) is a photo of me.
+[Here](uploads/face_profile.jpg) is a photo of me.
 
 All anonymous feedback is greatly appreciated [here](https://www.admonymous.co/lroberts). 
