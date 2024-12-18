@@ -56,10 +56,10 @@ highlight_name: false
 website: "https://marmalade-does.github.io/lroberts.github.io/"
 ---
 
-I’m doing a degree in genetics and another in informatics. I’m particularly interested in exploring the intersection of data science and molecular biology. I’m fascinated by innovative approaches to solving complex biological problems, especially the application of machine learning.
+I’m pursuing a degree in genetics and another in informatics. I’m particularly interested in exploring the intersection of data science and molecular biology. I’m fascinated by innovative approaches to solving complex biological problems, especially through the application of machine learning.
 
-Outside of my academic studies, I’m a strong believer in life-long learning. Recently, I’ve been diving into subjects like normative ethics, epistemics, AI, and global health. I’m also the founder and president of [Altruisme Efectiu UAB](https://sites.google.com/view/altruisme-efectiu-uab/home)
+Outside of my academic studies, I’m a strong believer in lifelong learning. Recently, I’ve been diving into subjects like normative ethics, epistemics, AI, and global health. I’m also the founder and president of [Altruisme Efectiu UAB](https://sites.google.com/view/altruisme-efectiu-uab/home).
 
 [Here](uploads/face_profile.jpg) is a photo of me.
 
-All anonymous feedback is greatly appreciated [here](https://www.admonymous.co/lroberts). 
+All anonymous feedback is greatly appreciated [here](https://www.admonymous.co/lroberts).
