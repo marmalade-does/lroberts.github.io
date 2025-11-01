@@ -5,7 +5,7 @@ Right now my focus is university. I do a double bachelor in genetics and informa
 
 I am based in Barcelona
 
-[Here](../images/prof_profile.jpg) is a photo of me. 
+[Here](/images/prof_profile.jpg) is a photo of me. 
 
 <!-- ### Writing
 
