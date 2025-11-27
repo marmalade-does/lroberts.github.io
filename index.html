@@ -185,6 +185,24 @@
         // Load initial page
         const initialPage = window.location.hash.slice(1) || 'home';
         loadPage(initialPage);
+
+        // Fetch and display CV last updated date
+        async function loadCvDate() {
+            try {
+                const response = await fetch('assets/cvs/cv-meta.json');
+                const data = await response.json();
+                const dateSpan = document.getElementById('cv-date');
+                if (dateSpan && data.lastUpdated) {
+                    dateSpan.textContent = `(last updated: ${data.lastUpdated})`;
+                }
+            } catch (e) {
+                // Silently fail if metadata not available
+            }
+        }
+
+        // Re-run after page loads in case CV link is in content
+        const observer = new MutationObserver(() => loadCvDate());
+        observer.observe(contentDiv, { childList: true });
     </script>
 </body>
 </html>

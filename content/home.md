@@ -18,7 +18,7 @@ I am based in Barcelona
 - Email: lukas dot robertson200403 at gmail dot com
 <!-- - [Goodreads](https://www.goodreads.com/user/show/190082427?ref=nav_profile_l) (*outdated*) -->
 
-My CV can be found [here](assets/public_cv_sep25.pdf)
+My CV can be found [here](assets/cvs/public_current_cv.pdf) <span id="cv-date"></span>
 
 All anonymous feedback is really appreciated [here](https://www.admonymous.co/lroberts).
 

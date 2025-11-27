@@ -1,0 +1,2 @@
+
+   git log -1 --format="%cs" -- assets/cvs/public_current_cv.pdf | xargs -I {} echo '{"lastUpdated": "{}"}' > assets/cvs/cv-meta.json && cat assets/cvs/cv-meta.json
