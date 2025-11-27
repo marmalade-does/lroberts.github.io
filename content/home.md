@@ -2,7 +2,7 @@
 
 Hi, I'm Lukas!
 
-Right now, my focus is university. I'm pursuing a double bachelor's degree in genetics and informatics, and in my spare time I read, binge [MIT OCW courses]((https://ocw.mit.edu)), and not much else.
+Right now, my focus is university. I'm pursuing a double bachelor's degree in genetics and informatics, and in my spare time I read, binge [MIT OCW courses](https://ocw.mit.edu), and not much else.
 
 I'm based in Barcelona.
 
