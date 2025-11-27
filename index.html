@@ -193,7 +193,7 @@
                 const data = await response.json();
                 const dateSpan = document.getElementById('cv-date');
                 if (dateSpan && data.lastUpdated) {
-                    dateSpan.textContent = `(last updated: ${data.lastUpdated})`;
+                    dateSpan.textContent = `(last update: ${data.lastUpdated})`;
                 }
             } catch (e) {
                 // Silently fail if metadata not available
