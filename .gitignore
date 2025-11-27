@@ -4,3 +4,4 @@ public
 !docs/.vuepress/public
 .DS_Store
 .obsidian
+digest.txt
