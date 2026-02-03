@@ -1,3 +1,4 @@
 {{- $link := .Get 0 -}}
 {{- $text := .Get 1 | default $link -}}
-<a href="/blog/{{ $link | urlize }}/">{{ $text }}</a>
+{{- $blogBase := printf "%sblog/" .Page.Site.Home.RelPermalink -}}
+<a href="{{ $blogBase }}{{ $link | urlize }}/">{{ $text }}</a>

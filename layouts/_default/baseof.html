@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .Title }}{{ .Title }} | {{ end }}My Personal Website</title>
-    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link rel="icon" type="image/png" href="{{ "assets/favicon.png" | relURL }}">
     <style>
         * {
             margin: 0;
@@ -165,8 +165,8 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog/">Blog</a></li>
+            <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+            <li><a href="{{ .Site.Home.RelPermalink }}blog/">Blog</a></li>
         </ul>
     </nav>
 
@@ -185,7 +185,7 @@
         // Fetch and display CV last updated date
         async function loadCvDate() {
             try {
-                const response = await fetch('/assets/cvs/cv-meta.json');
+                const response = await fetch('{{ "assets/cvs/cv-meta.json" | relURL }}');
                 const data = await response.json();
                 const dateSpan = document.getElementById('cv-date');
                 if (dateSpan && data.lastUpdated) {

@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if eq .Section "blog" }}
-<a href="/blog/" class="back-link">&larr; Back to blog</a>
+<a href="{{ .Site.Home.RelPermalink }}blog/" class="back-link">&larr; Back to blog</a>
 {{ end }}
 
 {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
@@ -11,7 +11,8 @@
 
 {{- $content := .Content -}}
 {{- /* Convert [[wikilink]] to proper links */ -}}
-{{- $content = $content | replaceRE `\[\[([^\]|]+)\|([^\]]+)\]\]` `<a href="/blog/$1/">$2</a>` -}}
-{{- $content = $content | replaceRE `\[\[([^\]]+)\]\]` `<a href="/blog/$1/">$1</a>` -}}
+{{- $blogBase := printf "%sblog/" .Site.Home.RelPermalink -}}
+{{- $content = $content | replaceRE `\[\[([^\]|]+)\|([^\]]+)\]\]` (printf `<a href="%s$1/">$2</a>` $blogBase) -}}
+{{- $content = $content | replaceRE `\[\[([^\]]+)\]\]` (printf `<a href="%s$1/">$1</a>` $blogBase) -}}
 {{ $content | safeHTML }}
 {{ end }}
