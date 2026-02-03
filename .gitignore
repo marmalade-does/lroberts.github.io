@@ -6,4 +6,5 @@ public
 .obsidian
 digest.txt
 stuff_.txt
-cv-meta.json
+# CV metadata is generated during build
+/static/assets/cvs/cv-meta.json

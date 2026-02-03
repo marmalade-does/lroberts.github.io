@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ if eq .Section "blog" }}
+<a href="/blog/" class="back-link">&larr; Back to blog</a>
+{{ end }}
+
+{{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+
+{{ if and .Date (eq .Section "blog") }}
+<p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+{{ end }}
+
+{{- $content := .Content -}}
+{{- /* Convert [[wikilink]] to proper links */ -}}
+{{- $content = $content | replaceRE `\[\[([^\]|]+)\|([^\]]+)\]\]` `<a href="/blog/$1/">$2</a>` -}}
+{{- $content = $content | replaceRE `\[\[([^\]]+)\]\]` `<a href="/blog/$1/">$1</a>` -}}
+{{ $content | safeHTML }}
+{{ end }}

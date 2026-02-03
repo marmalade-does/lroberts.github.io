@@ -1,4 +1,4 @@
-name: Deploy static site to Pages
+name: Deploy Hugo site to Pages
 
 on:
   push:
@@ -15,10 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,22 +23,35 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
       - name: Generate CV metadata
         run: |
-          CV_DATE=$(git log -1 --format="%cs" -- assets/cvs/public_current_cv.pdf 2>/dev/null || echo "")
+          CV_DATE=$(git log -1 --format="%cs" -- static/assets/cvs/public_current_cv.pdf 2>/dev/null || echo "")
           if [ -z "$CV_DATE" ]; then
             CV_DATE=$(date +%Y-%m-%d)
           fi
-          echo "{\"lastUpdated\": \"$CV_DATE\"}" > assets/cvs/cv-meta.json
+          echo "{\"lastUpdated\": \"$CV_DATE\"}" > static/assets/cvs/cv-meta.json
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Build with Hugo
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './public'
 
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
