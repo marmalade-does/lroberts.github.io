@@ -8,3 +8,6 @@ digest.txt
 stuff_.txt
 # CV metadata is generated during build
 /static/assets/cvs/cv-meta.json
+CLAUDE.md
+
+note.*
