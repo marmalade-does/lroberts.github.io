@@ -1,6 +1,6 @@
 # Lukas's Personal Website
 
-Hugo static site deployed to GitHub Pages at `https://marmalade-does.github.io/lroberts.github.io/`.
+Hugo static site deployed to GitHub Pages at `https://lukasrobertson.org/` (repo `marmalade-does/lroberts.github.io`; DNS on Cloudflare, records unproxied).
 
 ## Build & Deploy
 
@@ -41,13 +41,11 @@ hugo.toml                # Site config
 - **Wikilinks:** `single.html` post-processes content with regex to convert `[[slug]]` and `[[slug|text]]` into blog links
 - **CV date:** `baseof.html` has a script that fetches `assets/cvs/cv-meta.json` for the CV's last-updated date. The JSON is auto-generated during CI from git history
 
-## Subpath Deployment Gotcha
+## Internal Links
 
-The site deploys to a subpath (`/lroberts.github.io/`), not the domain root. This causes issues with internal asset paths.
+The site now serves from the domain root, but it previously lived at a subpath (`/lroberts.github.io/`). Keep links base-path-safe so a move back still works.
 
-**Hugo's `relURL` behavior:** `relURL` only prepends the base path when the input does NOT start with `/`. This is counterintuitive:
-- `"images/foo.jpg" | relURL` → `/lroberts.github.io/images/foo.jpg` (correct)
-- `"/images/foo.jpg" | relURL` → `/images/foo.jpg` (broken — no prefix)
+**Hugo's `relURL` behavior:** `relURL` only prepends the base path when the input does NOT start with `/`.
 
 The render hook in `render-link.html` handles this by stripping the leading `/` before calling `relURL`. If you add new internal links in markdown content, just use standard `[text](/path)` syntax and the hook will fix them.
 
