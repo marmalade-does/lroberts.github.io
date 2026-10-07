@@ -13,7 +13,7 @@ I'm based in Barcelona.
 *My socials*:
 - [LinkedIn](https://www.linkedin.com/in/lukas-paul-robertson/)
 - [GitHub](https://github.com/marmalade-does)
-- Email: lukas dot robertson200403 at gmail dot com
+- Email: lukas dot p dot roberts at gmail dot com
 
 My CV can be found [here](/assets/cvs/public_current_cv.pdf) <span id="cv-date"></span>
 
