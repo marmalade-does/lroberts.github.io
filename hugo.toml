@@ -1,6 +1,10 @@
 baseURL = "https://lukasrobertson.org/"
 languageCode = "en-us"
-title = "My Personal Website"
+title = "Lukas Robertson"
+
+[params]
+  description = "Lukas Robertson — genetics and informatics student based in Barcelona."
+  images = ["images/prof_profile.jpg"]
 
 [markup]
   [markup.goldmark]
