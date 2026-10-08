@@ -1,6 +1,6 @@
 # Lukas's Personal Website
 
-Hugo static site deployed to GitHub Pages at `https://lukasrobertson.org/` (repo `marmalade-does/lroberts.github.io`; DNS on Cloudflare, records unproxied).
+Hugo static site deployed to GitHub Pages at `https://lukasrobertson.org/` (repo `marmalade-does/lroberts.github.io`; DNS on Cloudflare; apex unproxied so GitHub serves its cert, `www` proxied with a Cloudflare redirect rule to the apex).
 
 ## Build & Deploy
 
