@@ -2,5 +2,5 @@
 title: "Blog"
 ---
 
-Comming soon ...
+Coming soon ...
 
