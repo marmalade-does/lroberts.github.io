@@ -3,7 +3,6 @@ draft: true
 ---
 
 
-
 ~
 Some executive summary
 ~
